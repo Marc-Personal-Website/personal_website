@@ -142,3 +142,49 @@ a:hover {
     font-weight: 50;
   }
 }
+/* contact page items */
+.contact {
+  box-sizing: border-box;
+  height: 100vh;
+  background: url('/img/bg-contact-page.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.contact-content {
+  position: relative;
+  top: 100px;
+  height: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  color: steelblue;
+  z-index: 10;
+}
+
+.form-label {
+  font-size: 18pt;
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+#email, #name {
+  margin: 0;
+  width: 100%;
+}
+#message {
+  width: 300px;
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  background-color: steelblue;
+  margin: 10px 0 0 200px;
+}
