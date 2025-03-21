@@ -168,11 +168,25 @@ a {
   margin: 0 00 0 300px;
 }
 
+
 /* portfolio content section */
+.portfolio {
+  background-color: #010d21;
+}
+
+#workCarousel {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-item{
+  height: 300px;
+  margin-top: 150px;
+}
 
 
 /* polaroid section */
-
 
 .body {
   background: #092542;
@@ -183,38 +197,45 @@ a {
   padding: 0 1rem;
   text-align: center;
 }
+
 .polaroid {
   background: #fff;
   padding: 1rem;
   box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
   color: #092542;
 }
+
 .polaroid > img{
   max-width: 100%;
   height: auto;
 }
+
 .caption {
   font-family: "Nothing You Could Do", cursive;
   font-size: 1.2rem;
   text-align: center;
   line-height: 2em;
 }
+
 .item {
   width: 20%;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
 }
+
 .item .polaroid:before {
   content: '';
   position: absolute;
   z-index: -1;
   transition: all 0.35s;
 }
+
 .item:nth-of-type(4n+1) {
   transform: scale(0.8, 0.8) rotate(5deg);
   transition: all 0.35s;
 }
+
 .item:nth-of-type(4n+1) .polaroid:before {
   transform: rotate(6deg);
   height: 20%;
@@ -223,10 +244,12 @@ a {
   right: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
 }
+
 .item:nth-of-type(4n+2) {
   transform: scale(0.8, 0.8) rotate(-5deg);
   transition: all 0.35s;
 }
+
 .item:nth-of-type(4n+2) .polaroid:before {
   transform: rotate(-6deg);
   height: 20%;
@@ -235,10 +258,12 @@ a {
   left: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
 }
+
 .item:nth-of-type(4n+4) {
   transform: scale(0.8, 0.8) rotate(3deg);
   transition: all 0.35s;
 }
+
 .item:nth-of-type(4n+4) .polaroid:before {
   transform: rotate(4deg);
   height: 20%;
@@ -247,10 +272,12 @@ a {
   right: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
 }
+
 .item:nth-of-type(4n+3) {
   transform: scale(0.8, 0.8) rotate(-3deg);
   transition: all 0.35s;
 }
+
 .item:nth-of-type(4n+3) .polaroid:before {
   transform: rotate(-4deg);
   height: 20%;
@@ -259,11 +286,13 @@ a {
   left: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
 }
+
 .item:hover {
   filter: none;
   transform: scale(1, 1) rotate(0deg) !important;
   transition: all 0.35s;
 }
+
 .item:hover .polaroid:before {
   content: '';
   position: absolute;
