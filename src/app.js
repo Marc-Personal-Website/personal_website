@@ -6,8 +6,3 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   window.location.href = window.location.origin + '/success.html'
 })
-
-// browser returns to homepage
-setTimeout(() => {
-  window.location.href = window.location.origin
-}, 5000)

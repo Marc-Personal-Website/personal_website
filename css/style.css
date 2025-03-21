@@ -21,14 +21,14 @@ a {
 }
 
 /* --- navbar --- */
-.header {
+/* .header {
   font-family: Poppins;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%; 
   padding: 10px 5%;
-  background-color: #333;
+  background-color: #333 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +50,7 @@ a:hover {
 }
 .active {
   color: steelblue;
-}
+} */
 
 /* content section */
 .home {
@@ -61,10 +61,11 @@ a:hover {
   display: flex;
   align-items: center;
   padding: 0 10%;
+  color:#ededed
 }
 
 .home-content {
-  max-width: 600px;
+  width: 600px !important;
 }
 
 .home-content h1 {
@@ -102,7 +103,7 @@ a:hover {
   color: #df7b16;
 }
 .quote {
-  font-size: 24pt;
+  font-size: 30pt;
   font-weight: 200;
   color:#df7b16; 
 }
@@ -112,7 +113,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   right: 5vw;
-  font-size: 16pt;  
+  font-size: 24pt;  
 }
 
 @media screen and (max-width: 600px) {
@@ -185,9 +186,11 @@ a:hover {
   margin: 0;
   width: 100%;
 }
+
 #message {
   width: 300px;
 }
+
 .btn {
   position: absolute;
   bottom: 0;
@@ -197,7 +200,6 @@ a:hover {
   background-color: steelblue;
   margin: 10px 0 0 200px;
 }
-
 
 /* portfolio content section */
 
